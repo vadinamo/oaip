@@ -7,7 +7,7 @@
 class train : protected rectangle {
 	protected:
 		int radius;
-        int smokex, smokey;
+        int smokey;
 	public:
 		train(int x, int y, int l, int h, int r) : rectangle(x, y, l, h) {radius = r;}
 
@@ -16,5 +16,9 @@ class train : protected rectangle {
 		void hide(TCanvas *Canvas);
 
 		void move(TCanvas *Canvas);
+
+        void stopTrain(TCanvas *Canvas);
+
+		void returnTrain(TCanvas *Canvas);
 };
 #endif

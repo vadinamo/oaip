@@ -1,9 +1,10 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form1'
-  ClientHeight = 761
-  ClientWidth = 1306
+  BorderIcons = [biSystemMenu]
+  Caption = #1055#1072#1088#1086#1074#1086#1079', '#1074#1099#1087#1091#1089#1082#1072#1102#1097#1080#1081' '#1076#1099#1084
+  ClientHeight = 758
+  ClientWidth = 1307
   Color = clSkyBlue
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -38,7 +39,7 @@ object Form1: TForm1
       OnClick = Button1Click
     end
     object Button2: TButton
-      Left = 504
+      Left = 1041
       Top = 24
       Width = 113
       Height = 81
@@ -53,10 +54,10 @@ object Form1: TForm1
       OnClick = Button2Click
     end
     object Button3: TButton
-      Left = 752
+      Left = 1160
       Top = 25
       Width = 113
-      Height = 81
+      Height = 80
       Caption = #1055#1086#1077#1093#1072#1083#1080
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -70,7 +71,7 @@ object Form1: TForm1
   end
   object Timer1: TTimer
     Enabled = False
-    Interval = 50
+    Interval = 37
     OnTimer = Timer1Timer
     Left = 1248
     Top = 512

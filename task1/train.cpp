@@ -15,9 +15,12 @@ void train::show(TCanvas *Canvas) {                    //лев верхн, пр
 
 	Canvas -> Pen -> Color = cl3DDkShadow;    //дым
 	Canvas -> Brush -> Color = cl3DDkShadow;
-	Canvas -> Ellipse(x + length - 36 - radius / 2, y - height - 60 + radius, x + length - 55 + radius / 2, y - height - 20 - radius);
-	Canvas -> Ellipse(x + length - 20 - radius / 2, y - height - 50 + radius, x + length - 40 + radius / 2, y - height - 20 - radius);
-	Canvas -> Ellipse(x + length - 29 - radius / 2, y - height - 40 + radius, x + length - 45 + radius / 2, y - height - radius);
+	Canvas -> Ellipse(x + length - 36 - radius / 2, smokey - height - 60 + radius,
+					  x + length - 55 + radius / 2, smokey - height - 20 - radius);
+	Canvas -> Ellipse(x + length - 20 - radius / 2, smokey - height - 50 + radius,
+					  x + length - 40 + radius / 2, smokey - height - 20 - radius);
+	Canvas -> Ellipse(x + length - 29 - radius / 2, smokey - height - 40 + radius,
+					  x + length - 45 + radius / 2, smokey - height - radius);
 
 	Canvas -> Pen -> Color = clScrollBar;     //труба
 	Canvas -> Brush -> Color = clMedGray;
@@ -39,9 +42,12 @@ void train::hide(TCanvas *Canvas) {
 
 	Canvas -> Pen -> Color = clSkyBlue;
 	Canvas -> Brush -> Color = clSkyBlue;
-	Canvas -> Ellipse(x + length - 36 - radius / 2, y - height - 60 + radius, x + length - 55 + radius / 2, y - height - 20 - radius);
-	Canvas -> Ellipse(x + length - 20 - radius / 2, y - height - 50 + radius, x + length - 40 + radius / 2, y - height - 20 - radius);
-	Canvas -> Ellipse(x + length - 29 - radius / 2, y - height - 40 + radius, x + length - 45 + radius / 2, y - height - radius);
+	Canvas -> Ellipse(x + length - 36 - radius / 2, smokey - height - 60 + radius,
+					  x + length - 55 + radius / 2, smokey - height - 20 - radius);
+	Canvas -> Ellipse(x + length - 20 - radius / 2, smokey - height - 50 + radius,
+					  x + length - 40 + radius / 2, smokey - height - 20 - radius);
+	Canvas -> Ellipse(x + length - 29 - radius / 2, smokey - height - 40 + radius,
+					  x + length - 45 + radius / 2, smokey - height - radius);
 
 	Canvas -> Pen -> Color = clSkyBlue;
 	Canvas -> Brush -> Color = clSkyBlue;
@@ -57,14 +63,31 @@ void train::hide(TCanvas *Canvas) {
 
 }
 
-void train::move(TCanvas *Canvas/*, int x1, int y1*/) {
+
+void train::stopTrain(TCanvas *Canvas) {
+	train::hide(Canvas);
+    smokey = y;
+	train::show(Canvas);
+}
+
+void train::returnTrain(TCanvas *Canvas) {
+	train::hide(Canvas);
+	x = 50;
+	smokey = y;
+	train::show(Canvas);
+}
+
+void train::move(TCanvas *Canvas) {
 	train::hide(Canvas);
 	if (x + length < 1240) {
-		x += 2;
-		train::show(Canvas);
+		x += 10;
 	}
-	else {
-		ShowMessage("Вы прибыли.");
-		train::hide(Canvas);
+	if (smokey == 0) {
+        smokey = y;
 	}
+	else if (smokey > 425) {
+		smokey -= 20;
+	}
+	else smokey = y;
+    train::show(Canvas);
 }

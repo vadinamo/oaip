@@ -8,7 +8,9 @@
 #pragma resource "*.dfm"
 TForm1 *Form1;
 //---------------------------------------------------------------------------
+
 train s1(50, 550, 220, 75, 30);
+
 __fastcall TForm1::TForm1(TComponent* Owner)
 	: TForm(Owner)
 {
@@ -18,15 +20,15 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
-    s1.hide(Canvas);
-	s1.show(Canvas);
-    Timer1 -> Enabled = false;
+	s1.returnTrain(Canvas);
+	Timer1 -> Enabled = false;
 }
 //---------------------------------------------------------------------------
 
 
 void __fastcall TForm1::Button2Click(TObject *Sender)
 {
+    s1.stopTrain(Canvas);
 	Timer1 -> Enabled = false;
 }
 //---------------------------------------------------------------------------
