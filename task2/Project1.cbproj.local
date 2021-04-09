@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.317,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.781,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.359,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.116,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.290,C:\Users\vadin\Documents\Circle.cpp=C:\Users\vadin\Documents\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.421,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Ellipse.cpp=C:\Users\vadin\Documents\Ellipse.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.745,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Ellipse.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.512,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\figure.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.231,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Figure.cpp=C:\Users\vadin\Documents\Figure.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.512,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\figure.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.222,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Figure.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.935,C:\Users\vadin\Documents\Rectangle.cpp=C:\Users\vadin\Documents\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.720,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Figure.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.130,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Figure.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\eigure.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.678,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\taskfigure\figure.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\figure.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.581,=C:\Users\vadin\Documents\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.276,=C:\Users\vadin\Documents\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.058,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Rectangle.h=C:\Users\vadin\Documents\Rectangle.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.003,C:\Users\vadin\Documents\Figure.cpp=C:\Users\vadin\Documents\Ellipse.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.538,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\eigure.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\figure.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.041,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Rectangle.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\кectangle.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.338,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit1.h=C:\Users\vadin\Documents\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.290,C:\Users\vadin\Documents\Circle.h=C:\Users\vadin\Documents\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.705,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\кectangle.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\rectangle.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.457,C:\Users\vadin\Documents\Ellipse.cpp=C:\Users\vadin\Documents\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.577,=C:\Users\vadin\Documents\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.123,=C:\Users\vadin\Documents\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.272,C:\Users\vadin\Documents\Ellipse.cpp=C:\Users\vadin\Documents\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.222,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Figure.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.705,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\кectangle.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\rectangle.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.000,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.061,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.935,C:\Users\vadin\Documents\Rectangle.h=C:\Users\vadin\Documents\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.723,=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.560,=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.174,=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.340,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Project1.cbproj=C:\Users\vadin\Documents\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.338,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit1.cpp=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.476,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Circle.h=C:\Users\vadin\Documents\Circle.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.041,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Rectangle.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\кectangle.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.258,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.771,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.058,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Rectangle.cpp=C:\Users\vadin\Documents\Rectangle.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.538,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\eigure.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\figure.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.421,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Ellipse.h=C:\Users\vadin\Documents\Ellipse.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.405,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit2.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\circle.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.003,C:\Users\vadin\Documents\Figure.h=C:\Users\vadin\Documents\Ellipse.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.231,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Figure.h=C:\Users\vadin\Documents\Figure.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.130,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Figure.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\eigure.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.338,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit1.dfm=C:\Users\vadin\Documents\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.678,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\taskfigure\figure.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\figure.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.523,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Project1PCH1.h=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.405,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Unit2.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\circle.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.476,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Circle.cpp=C:\Users\vadin\Documents\Circle.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.457,C:\Users\vadin\Documents\Ellipse.h=C:\Users\vadin\Documents\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.272,C:\Users\vadin\Documents\Ellipse.h=C:\Users\vadin\Documents\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.948,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab1\task2\Circle.cpp=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Project1.cpp"/>
+    <File Path="Project1PCH1.h"/>
+    <File Path="rectangle.cpp"/>
+    <File Path="rectangle.cpp"/>
+    <File Path="rectangle.h"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit1.h"/>
+    <File Path="figure.cpp"/>
+    <File Path="figure.cpp"/>
+    <File Path="figure.h"/>
+    <File Path="circle.cpp"/>
+    <File Path="circle.cpp"/>
+    <File Path="circle.h"/>
+  </ProjectSortOrder>
+</BorlandProject>
