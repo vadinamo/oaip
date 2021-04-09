@@ -123,6 +123,10 @@
             <DependentOn>circle.h</DependentOn>
             <BuildOrder>5</BuildOrder>
         </CppCompile>
+        <CppCompile Include="ellipse.cpp">
+            <DependentOn>ellipse.h</DependentOn>
+            <BuildOrder>6</BuildOrder>
+        </CppCompile>
         <CppCompile Include="figure.cpp">
             <DependentOn>figure.h</DependentOn>
             <BuildOrder>5</BuildOrder>
