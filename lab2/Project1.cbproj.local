@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.317,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.359,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.365,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.531,C:\Users\vadin\Documents\Project1PCH1.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab2\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.771,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.128,C:\Users\vadin\Documents\pacient.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab2\pacient.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.832,C:\Users\vadin\Documents\Unit1.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab2\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.832,C:\Users\vadin\Documents\Unit1.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.128,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.781,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.510,=C:\Users\vadin\Documents\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.979,C:\Users\vadin\Documents\Unit2.cpp=C:\Users\vadin\Documents\pacient.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.979,C:\Users\vadin\Documents\Unit2.h=C:\Users\vadin\Documents\pacient.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.128,C:\Users\vadin\Documents\pacient.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab2\pacient.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.036,C:\Users\vadin\Documents\Project1.cbproj=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab2\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.239,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.813,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.258,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.000,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.832,C:\Users\vadin\Documents\Unit1.dfm=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab2\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
