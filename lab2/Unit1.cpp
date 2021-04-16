@@ -4,6 +4,7 @@
 #pragma hdrstop
 
 #include "Unit1.h"
+#include "vector.h"
 #include "pacient.h"
 #include <locale.h>
 //---------------------------------------------------------------------------
@@ -14,18 +15,7 @@ TForm1 *Form1;
 
 int picked, search_element, length = 0;
 
-pacient<String> fio;
-pacient<String> gender;
-pacient<String> diagn;
-
-pacient<int> age(10);
-pacient<int> room_num(10);
-
-pacient<int> reg_day(10);
-pacient<int> reg_month(10);
-
-pacient<int> dis_day(10);
-pacient<int> dis_month(10);
+vector <Pacient> pacient;
 
 //---------------------------------------------------------------------------
 __fastcall TForm1::TForm1(TComponent* Owner)
@@ -42,17 +32,25 @@ void __fastcall TForm1::Button6Click(TObject *Sender)
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
 	if (Edit1 -> Text == "М" || Edit1 -> Text == "Ж") {
-			fio.add(ComboBox1 -> Text, length);
-			ComboBox1 -> Items -> Add(fio[length]);
-			gender.add(Edit1 -> Text, length);
-			diagn.add(Edit3 -> Text, length);
 
-			age.add(StrToInt(Edit2 -> Text), length);
-			reg_day.add(StrToInt(Edit5 -> Text), length);
-			reg_month.add(StrToInt(Edit6 -> Text), length);
-			dis_day.add(StrToInt(Edit7 -> Text), length);
-			dis_month.add(StrToInt(Edit8 -> Text), length);
-			room_num.add(StrToInt(Edit4 -> Text), length);
+
+    String fio, gender, diagn;
+	int age, room_num, reg_day, reg_month, dis_day, dis_month;
+
+	Pacient *p = new Pacient;
+		p -> fio = ComboBox1 -> Text;
+		p -> gender = Edit1 -> Text;
+		p -> diagn = Edit3 -> Text;
+		p -> age = StrToInt(Edit2 -> Text);
+		p -> room_num = StrToInt(Edit4 -> Text);
+		p -> reg_day = StrToInt(Edit5 -> Text);
+		p -> reg_month = StrToInt(Edit6 -> Text);
+		p -> dis_day = StrToInt(Edit7 -> Text);
+		p -> dis_month = StrToInt(Edit8 -> Text);
+
+		ComboBox1 -> Items -> Add(ComboBox1 -> Text);
+		pacient.add(*p, length);
+
 			length++;
 	}
 
@@ -85,17 +83,8 @@ void __fastcall TForm1::Button9Click(TObject *Sender)
 {
 	picked = ComboBox1 -> ItemIndex;
 	if (picked >= 0) {
-		fio.remove(picked);
 		ComboBox1 -> Items -> Delete(picked);
-		gender.remove(picked);
-		diagn.remove(picked);
-
-		age.remove(picked);
-		reg_day.remove(picked);
-		reg_month.remove(picked);
-		dis_day.remove(picked);
-		dis_month.remove(picked);
-		room_num.remove(picked);
+		pacient.remove(picked);
 	}
 	length--;
 }
@@ -129,19 +118,19 @@ void __fastcall TForm1::RadioButton4Click(TObject *Sender)
 
 void __fastcall TForm1::RadioButton5Click(TObject *Sender)
 {
-    search_element = 5;
+	search_element = 5;
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::outp(int i) {
-	Memo1 -> Lines -> Add ("Ф.И.О.:" + fio[i]);
-	Memo1 -> Lines -> Add ("Пол:" + gender[i]);
-	Memo1 -> Lines -> Add ("Возраст:" + IntToStr(age[i]));
-	Memo1 -> Lines -> Add ("Диагноз:" + diagn[i]);
-	Memo1 -> Lines -> Add ("Палата:" + IntToStr(room_num[i]));
+	Memo1 -> Lines -> Add ("Ф.И.О.:" + pacient[i].fio);
+	Memo1 -> Lines -> Add ("Пол:" + pacient[i].gender);
+	Memo1 -> Lines -> Add ("Возраст:" + IntToStr(pacient[i].age));
+	Memo1 -> Lines -> Add ("Диагноз:" + pacient[i].diagn);
+	Memo1 -> Lines -> Add ("Палата:" + IntToStr(pacient[i].room_num));
 
-	Memo1 -> Lines -> Add ("Дата поступления:" + IntToStr(reg_day[i]) + "." + IntToStr(reg_month[i]));
-	Memo1 -> Lines -> Add ("Дата выписки:" + IntToStr(dis_day[i])+ "." + IntToStr(dis_month[i]));
+	Memo1 -> Lines -> Add ("Дата поступления:" + IntToStr(pacient[i].reg_day) + "." + IntToStr(pacient[i].reg_month));
+	Memo1 -> Lines -> Add ("Дата выписки:" + IntToStr(pacient[i].dis_day)+ "." + IntToStr(pacient[i].dis_month));
 
 	Memo1 -> Lines -> Add("");
 }
@@ -153,7 +142,7 @@ void __fastcall TForm1::Button5Click(TObject *Sender)
 
 	case 1:
 		for(int i = 0; i < length; i++) {
-			if(StrToInt(Edit11 -> Text) == room_num[i]) {
+			if(StrToInt(Edit11 -> Text) == pacient[i].room_num) {
 				outp(i);
 			}
 		}
@@ -161,7 +150,7 @@ void __fastcall TForm1::Button5Click(TObject *Sender)
 
 	case 2:
 		for(int i = 0; i < length; i++) {
-			if(Edit11 -> Text == gender[i]) {
+			if(Edit11 -> Text == pacient[i].gender) {
 				outp(i);
 			}
 		}
@@ -169,7 +158,7 @@ void __fastcall TForm1::Button5Click(TObject *Sender)
 
 	case 3:
 		for(int i = 0; i < length; i++) {
-			if(Edit11 -> Text == diagn[i]) {
+			if(Edit11 -> Text == pacient[i].diagn) {
 				outp(i);
 			}
 		}
@@ -177,7 +166,7 @@ void __fastcall TForm1::Button5Click(TObject *Sender)
 
 	case 4:
 		for(int i = 0; i < length; i++) {
-			if(Edit11 -> Text == fio[i]) {
+			if(Edit11 -> Text == pacient[i].fio) {
 				outp(i);
             }
 		}
@@ -185,7 +174,7 @@ void __fastcall TForm1::Button5Click(TObject *Sender)
 
 	case 5:
 		for(int i = 0; i < length; i++) {
-			if(StrToInt(Edit11 -> Text) == age[i]) {
+			if(StrToInt(Edit11 -> Text) == pacient[i].age) {
 				outp(i);
 			}
 		}
@@ -202,28 +191,33 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 		list -> LoadFromFile(FileOpenDialog1 -> FileName);
 		int n = 0;
 		for(int i = 0; i < (list -> Count) / 10; i++) {
-			fio.add(list -> Strings[n], length);
-			n++;
-			ComboBox1 -> Items -> Add(fio[length]);
-			gender.add(list -> Strings[n], length);
-			n++;
-			diagn.add(list -> Strings[n], length);
-			n++;
-			age.add(StrToInt(list -> Strings[n]), length);
-			n++;
 
-			reg_day.add(StrToFloat(list -> Strings[n]), length);
-			n++;
-			reg_month.add(StrToFloat(list -> Strings[n]), length);
-			n++;
-			dis_day.add(StrToFloat(list -> Strings[n]), length);
-			n++;
-			dis_month.add(StrToFloat(list -> Strings[n]), length);
-			n++;
+		Pacient *p = new Pacient;
+		p -> fio = list -> Strings[n];
+		ComboBox1 -> Items -> Add(list -> Strings[n]);
+		n++;
+		p -> gender = list -> Strings[n];
+		n++;
 
-			room_num.add(StrToInt(list -> Strings[n]), length);
-			n += 2;
-			length++;
+		p -> diagn = list -> Strings[n];
+		n++;
+		p -> age = StrToInt(list -> Strings[n]);
+		n++;
+
+		p -> reg_day = StrToInt(list -> Strings[n]);
+		n++;
+		p -> reg_month = StrToInt(list -> Strings[n]);
+		n++;
+		p -> dis_day = StrToInt(list -> Strings[n]);
+		n++;
+		p -> dis_month = StrToInt(list -> Strings[n]);
+		n++;
+
+		p -> room_num = StrToInt(list -> Strings[n]);
+
+		pacient.add(*p, length);
+		n += 2;
+		length++;
 		}
 	}
 	delete list;
@@ -238,17 +232,17 @@ void __fastcall TForm1::Button4Click(TObject *Sender)
 		TStringList *list = new TStringList;
 
 		for(int i = 0; i < length; i++) {
-			list -> Add (fio[i]);
-			list -> Add (gender[i]);
-			list -> Add (diagn[i]);
-			list -> Add (age[i]);
+			list -> Add (pacient[i].fio);
+			list -> Add (pacient[i].gender);
+			list -> Add (pacient[i].diagn);
+			list -> Add (pacient[i].age);
 
-			list -> Add (FloatToStr(reg_day[i]));
-			list -> Add (FloatToStr(reg_month[i]));
-			list -> Add (FloatToStr(dis_day[i]));
-			list -> Add (FloatToStr(dis_month[i]));
+			list -> Add (IntToStr(pacient[i].reg_day));
+			list -> Add (IntToStr(pacient[i].reg_month));
+			list -> Add (IntToStr(pacient[i].dis_day));
+			list -> Add (IntToStr(pacient[i].dis_month));
 
-			list -> Add (room_num[i]);
+			list -> Add (IntToStr(pacient[i].room_num));
 			list -> Add("");
 		}
 		list -> SaveToFile(FileSaveDialog1 -> FileName);
@@ -263,14 +257,14 @@ void __fastcall TForm1::Button7Click(TObject *Sender)
 	clear();
 	for(int i = 0; i < length; i++) {
 
-		String d = diagn[i];
+		String d = pacient[i].diagn;
 		int num = 0;
 
 		for(int j = 1; j < d.Length(); j++) {
 			if(d[j] == ',') num++;
 		}
 
-		if(num >= 2) Memo1 -> Lines -> Add(IntToStr(room_num[i]));
+		if(num >= 2) Memo1 -> Lines -> Add(IntToStr(pacient[i].room_num));
 	}
 }
 //---------------------------------------------------------------------------
@@ -282,7 +276,7 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
 	int reg_date[length];
 
 	for(int i = 0; i < length; i++) {
-		reg_date[i] = reg_day[i] + reg_month[i] * 30;
+		reg_date[i] = pacient[i].reg_day + pacient[i].reg_month * 30;
 	}
 
 	int buffer;
@@ -299,7 +293,7 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
 
 	for(int i = 0; i < length; i++) {
 		for(int j = 0; j < length; j++) {
-			if(reg_day[j] + reg_month[j] * 30 == reg_date[i]) outp(j);
+			if(pacient[j].reg_day + pacient[j].reg_month * 30 == reg_date[i]) outp(j);
 		}
     }
 }

@@ -3,6 +3,10 @@
 #pragma hdrstop
 
 #include "pacient.h"
+
+Pacient::Pacient() {
+
+}
+
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
-
