@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.781,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.359,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.771,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.390,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,C:\Users\vadin\Documents\Unit1.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.317,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.239,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.000,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,C:\Users\vadin\Documents\Unit1.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\tree.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.657,C:\Users\vadin\Documents\Project1PCH1.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.258,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.079,=C:\Users\vadin\Documents\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.155,=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\tree.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\vector.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.871,C:\Users\vadin\Documents\Project1.cbproj=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.410,=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.138,=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.173,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\vector.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\vector.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,C:\Users\vadin\Documents\Unit1.dfm=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.365,=C:\Users\vadin\Documents\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.173,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\vector.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\Unit2.cpp</Transaction>
+    <Transaction>2021.06.04 16:38:40.886,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\list.cpp=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\vector.cpp</Transaction>
+    <Transaction>2021.06.04 16:38:40.886,C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\list.h=C:\Users\vadin\Desktop\оаип\Builder projects\Labs\lab6\vector.h</Transaction>
+  </Transactions>
+</BorlandProject>
